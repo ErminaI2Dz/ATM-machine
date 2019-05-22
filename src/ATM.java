@@ -40,7 +40,7 @@ public class ATM {
 			}
 
 			if (choice == 3) {
-				System.out.print("Unesite broj racuna:");
+				System.out.print("Input account number:");
 				int accountNumber = unos.nextInt();
 				AccountManager.displayAccount(accounts, accountNumber);
 			}
